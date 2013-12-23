@@ -1,3 +1,27 @@
+# Created by http://gitignore.io
+
+### Linux ###
+.*
+!.gitignore
+!.git*
+*~
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### Drupal ###
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 
@@ -7,31 +31,25 @@ files/
 sites/*/files
 sites/*/private
 
-# Ignore default text files
-.htaccess
-robots.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-/README.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
 
-# Ignore everything but the "sites" folder ( for non core developer )
-web.config
-authorize.php
-cron.php
-index.php
-install.php
-update.php
-xmlrpc.php
-/includes
-/misc
-/modules
-/profiles
-/scripts
-/themes
+### NetBeans ###
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+build.xml
+build.properties
+
+
+### PhPStorm ###
+.idea/
+
+### Compass ###
+.sass-cache
+
+### SASS ###
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
