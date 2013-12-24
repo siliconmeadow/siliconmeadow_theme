@@ -101,7 +101,7 @@ audio:not([controls]) {
  */
 html {
   /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; /* 1 */
-  font-family: "Goudy Bookletter 1911"Stoke, Georgia, Times, "Times New Roman", serif; /* 1 */
+  font-family: "Noticia Text", Georgia, Times, "Times New Roman", serif; /* 1 */
 
   /* Delete all but one of the following font-size declarations: */
 
@@ -204,14 +204,14 @@ blockquote {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-h1,
+/*h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Marcellus SC", Verdana, Tahoma, "DejaVu Sans", sans-serif;
-}
+  font-family: "Signika", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+}*/
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
