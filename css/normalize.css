@@ -100,15 +100,14 @@ audio:not([controls]) {
  *    `em` units.
  */
 html {
-  /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; /* 1 */
-  font-family: "Noticia Text", Georgia, Times, "Times New Roman", serif; /* 1 */
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif; /* 1 */
 
   /* Delete all but one of the following font-size declarations: */
 
   /* Use a 12px base font size. 16px x 75% = 12px */
-  /*font-size: 75%; /* 3 */
+  font-size: 75%; /* 3 */
   /* Use a 14px base font size. 16px x .875 = 14px */
-  /*font-size: 87.5%; /* 3 */
+  font-size: 87.5%; /* 3 */
   /* Use a 16px base font size. */
   font-size: 100%; /* 3 */
 
@@ -204,14 +203,6 @@ blockquote {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Signika", Verdana, Tahoma, "DejaVu Sans", sans-serif;
-}*/
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
@@ -347,14 +338,14 @@ ul ul {
   margin: 0;
 }
 dd {
-  margin: 0 0 0 30px; /* LTR */
+  margin: 0 0 0 30px;
 }
 
 /* Address paddings set differently in IE 6/7. */
 menu,
 ol,
 ul {
-  padding: 0 0 0 30px; /* LTR */
+  padding: 0 0 0 30px;
 }
 
 /* Correct list images handled incorrectly in IE 7. */
@@ -419,7 +410,7 @@ fieldset {
 legend {
   border: 0; /* 1 */
   padding: 0; /* 2 */
-  *margin-left: -7px; /* 3 */ /* LTR */
+  *margin-left: -7px; /* 3 */
 }
 
 /**

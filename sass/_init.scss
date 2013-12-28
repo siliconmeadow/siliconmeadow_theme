@@ -74,6 +74,7 @@ $h6-font-size: 0.67 * $base-font-size;
 $times-new-roman: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
 $times:           Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
 $georgia:         Georgia, "Times New Roman", "DejaVu Serif", serif;
+$noticia-text:    "Noticia Text", "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
 
 $verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
 $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
@@ -85,9 +86,10 @@ $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
-$font-monospace:   $courier;
+$web-font-import-url: "http://fonts.googleapis.com/css?family=Noticia+Text"; 
+$base-font-family:    $noticia-text; // The font family set on the html element.
+$font-body:           $verdana;
+$font-monospace:      $courier;
 
 
 //

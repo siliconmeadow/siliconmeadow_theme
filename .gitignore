@@ -53,3 +53,4 @@ build.properties
 ### SASS ###
 ### SASS Ignores - "Sassy CSS" http://sass-lang.com/
 *.sass-cache
+fire_app_log.txt
