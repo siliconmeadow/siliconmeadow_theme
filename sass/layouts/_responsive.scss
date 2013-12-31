@@ -70,22 +70,21 @@ $zen-auto-include-item-base: false;
     width: $zen-grid-width;
   }
   /* Front page sections */ 
-  .front #content section {
+  .front #content {
     $zen-column-count: 2;
-    $zen-gutter-width: 20px !default;
     @include zen-nested-container();
-    /*@include zen-grid-background();*/
-  }
-  .front #content section.goals,
-  .front #content section.org-tools {
-    @include zen-grid-item(1,1);
-    @include zen-clear;
-    /*border: 1px red solid;*/
-  }
-  .front #content section.focus,
-  .front #content section.guides {
-    @include zen-grid-item(1,2);
-    /*border: 1px green solid;*/
+    @include zen-grid-background();
+    section.goals,
+    section.org-tools {
+      @include zen-grid-item(1,1);
+      @include zen-clear;
+      border: 1px red solid;
+    }
+    section.focus,
+    section.guides {
+      @include zen-grid-item(1,2);
+      border: 1px green solid;
+    }
   }
 }
 
