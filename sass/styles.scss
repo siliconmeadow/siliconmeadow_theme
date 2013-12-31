@@ -18,6 +18,9 @@
 /* Component (SMACSS module) rules */
 @import "components/misc";
 // Optionally, add your own components here.
+@if $web-font-import-url {
+  @import url($web-font-import-url);
+}
 @import "print";
 
 /* SMACSS theme rules */

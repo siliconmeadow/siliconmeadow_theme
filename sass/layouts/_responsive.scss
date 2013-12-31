@@ -69,6 +69,24 @@ $zen-auto-include-item-base: false;
     height: $nav-height;
     width: $zen-grid-width;
   }
+  /* Front page sections */ 
+  .front #content section {
+    $zen-column-count: 2;
+    $zen-gutter-width: 20px !default;
+    @include zen-nested-container();
+    /*@include zen-grid-background();*/
+  }
+  .front #content section.goals,
+  .front #content section.org-tools {
+    @include zen-grid-item(1,1);
+    @include zen-clear;
+    /*border: 1px red solid;*/
+  }
+  .front #content section.focus,
+  .front #content section.guides {
+    @include zen-grid-item(1,2);
+    /*border: 1px green solid;*/
+  }
 }
 
 } // End of @if $zen-reverse-all-floats == true
@@ -93,6 +111,7 @@ $zen-auto-include-item-base: false;
     .region-sidebar-first {
       @include zen-grid-item(1, 1);
     }
+    
   }
 
   /**
