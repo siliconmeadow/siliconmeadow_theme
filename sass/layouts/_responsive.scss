@@ -70,20 +70,20 @@ $zen-auto-include-item-base: false;
     width: $zen-grid-width;
   }
   /* Front page sections */ 
-  .front #content {
+  .front-page-highlights {
+    @include zen-clear();
     $zen-column-count: 2;
-    @include zen-nested-container();
-    @include zen-grid-background();
-    section.goals,
-    section.org-tools {
+    section:nth-of-type(odd) {
       @include zen-grid-item(1,1);
-      @include zen-clear;
-      border: 1px red solid;
+      @include zen-clear();
     }
-    section.focus,
-    section.guides {
+    section:nth-of-type(even) {
       @include zen-grid-item(1,2);
-      border: 1px green solid;
+    }
+    &:after {
+      content: "";
+      @include zen-clear();
+      display: block;
     }
   }
 }
